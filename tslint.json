@@ -8,7 +8,8 @@
     "class-name": true,
     "comment-format": [
       true,
-      "check-space"
+      "check-space",
+      "check-uppercase"
     ],
     "curly": true,
     "deprecation": {
@@ -126,5 +127,10 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
     "directive-class-suffix": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/polyfills.ts"
+    ]
   }
 }
